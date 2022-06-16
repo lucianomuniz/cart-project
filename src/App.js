@@ -1,9 +1,6 @@
-import { useGlobalContext } from './context';
-
-// components
 import Navbar from './Navbar';
 import CartContainer from './CartContainer';
-// items
+import { useGlobalContext } from './context';
 
 const App = () => {
   const { loading } = useGlobalContext();
